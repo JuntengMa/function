@@ -4,5 +4,5 @@
  */
 
 function isViewportOpen() {
-    return !!document.getElementById('wixMobileViewport');
+  return !!document.getElementById("wixMobileViewport")
 }

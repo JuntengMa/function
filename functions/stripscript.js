@@ -4,5 +4,5 @@
  */
 
 function stripscript(s) {
-    return s.replace(/<script.*?>.*?<\/script>/ig, '');
+  return s.replace(/<script.*?>.*?<\/script>/gi, "")
 }
